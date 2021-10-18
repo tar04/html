@@ -1,0 +1,65 @@
+body{
+    background: peru;
+    color: white;
+}
+.image{
+    float: left;
+}
+#image{
+    border: 10px outset navajowhite;
+    border-radius: 50%;
+    height: 350px;
+}
+.header p{
+    margin-left: 440px;
+    padding: 10px;
+    font-size: 26px;
+    text-align: center;
+    border: 1px solid white;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.header{
+    width: auto;
+}
+div h2{
+    color: #834c21;
+    text-align: center;
+}
+div{
+    margin: 15px 100px;
+    box-sizing: border-box;
+}
+ul ul{
+    list-style-type: none;
+}
+.awards{
+    margin-bottom: 30px;
+}
+
+.childhood {
+    margin-left: 540px;
+    padding: 15px;
+    border: 2px dotted white;
+    border-radius: 30px;
+}
+
+.teaching {
+    padding: 15px;
+    border: 2px dotted white;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 30px;
+}
+
+.careerbeg {
+    padding: 15px;
+    border: 15px double navajowhite;
+}
+.success {
+    background-color: navajowhite;
+    color: #834c21;
+    border: .5px solid white;
+    border-radius: 50%;
+    text-align: center;
+    padding: 45px;
+}
