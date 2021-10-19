@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+}
+
+.widgets {
+    background: #3838ee;
+    height: 400px;
+    width: 1230px;
+}
+
+.bidw {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+
+}
+
+.bwidgets {
+    background: darkblue;
+    width: 400px;
+    height: 300px;
+}
+
+.contact {
+    background: #3838ee;
+    height: 600px;
+    width: 1230px;
+}
+
+p, h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 3em 0;
+}
+
+p {
+    font-size: 36px;
+}
+
+h1 {
+    font-size: 56px;
+}

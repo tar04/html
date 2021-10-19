@@ -1,0 +1,46 @@
+body {
+    background: gray;
+    display: flex;
+    justify-content: center;
+}
+
+.father {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+#header {
+    background: greenyellow;
+    height: 100px;
+    width: 1015px;
+}
+
+.maintext {
+    display: flex;
+    column-gap: 15px;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.post {
+    background: aqua;
+    height: 300px;
+    width: 800px;
+}
+
+#menu {
+    background: pink;
+    height: 615px;
+    width: 200px;
+}
+
+#footer {
+    background: #c4bf7c;
+    height: 100px;
+    width: 1015px;
+}
