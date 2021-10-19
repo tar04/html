@@ -1,0 +1,53 @@
+.father {
+    height: 800px;
+    width: auto;
+}
+
+.header {
+    height: 100px;
+    width: 1000px;
+    background: blue;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.nav {
+    height: 100px;
+    width: 1000px;
+    background: #10106e;
+    text-align: center;
+    color: white;
+}
+
+.ma {
+    display: flex;
+}
+
+.main {
+    height: 500px;
+    width: 700px;
+    background: #7676d0;
+    text-align: center;
+    color: white;
+}
+
+.aside {
+    height: 500px;
+    width: 300px;
+    background: #282864;
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    height: 100px;
+    width: 1000px;
+    background: #9a9ae3;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
