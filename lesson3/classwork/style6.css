@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.d_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Tibetan Machine Uni", serif;
+}
+
+.father {
+    width: 700px;
+    height: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.header {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_item {
+    background: #2577a2;
+    width: 49%;
+    font-size: 36px;
+}
+
+.main {
+    height: 250px;
+    background: #2386bd;
+    font-size: 30px;
+}
+
+.footer {
+    height: 250px;
+    display: flex;
+    column-gap: 15px;
+    font-size: 20px;
+}
+
+.footer_item {
+    width: 33.33%;
+    background: #113f91;
+}
