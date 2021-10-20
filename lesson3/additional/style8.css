@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainfont {
+    font-size: 30px;
+}
+
+.header {
+    height: 100px;
+    background: #2eceb6;
+    display: flex;
+}
+
+#logo {
+    height: 70px;
+    width: 70px;
+    padding-top: 15px;
+    padding-left: 15px;
+    box-sizing: content-box;
+}
+
+.nav {
+    display: flex;
+    padding-left: 30%;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.nav_item {
+    border: 0 solid #9b9bce;
+    background-color: #9b9bce;
+    border-radius: 20px;
+    padding: 10px 15px
+}
+
+.nav_item:hover {
+    color: white;
+    background-color: #7d7d9a;
+}
+
+.hero {
+    height: 300px;
+    background: #2eceb6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.oktentext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.toptext {
+    font-size: 60px;
+}
+
+.bottext {
+    font-size: 50px;
+}
+.link {
+    display: flex;
+    height: 100px;
+}
+.head {
+    border: 0 solid white;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 2px 15px;
+    font-size: 25px;
+    height: 35%;
+    align-self: center;
+}
+.youtube {
+    height: 100%;
+}
+#yt{
+    height: 100px;
+    width: 150px;
+}
+
