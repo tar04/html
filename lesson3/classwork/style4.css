@@ -1,0 +1,48 @@
+.father {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 5px solid gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.d_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.header {
+    height: 200px;
+    background-color: darkgray;
+}
+.main{
+    height: 400px;
+    display: flex;
+}
+.mainleft{
+    display: flex;
+    flex-grow: 3;
+    flex-wrap: wrap;
+    column-gap: 1%;
+    row-gap: 1%;
+}
+.mainitem{
+    background-color: darkgray;
+    width: 32.33%;
+    height: 49%;
+    box-sizing: border-box;
+}
+.h{
+    background-color: darkgray;
+    flex-grow: 1;
+    height: 99.5%;
+}
+
