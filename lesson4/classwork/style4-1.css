@@ -16,7 +16,11 @@
     box-sizing: border-box;
 }
 
-body, .top, .bot__item1, .bot__item2 div {
+.bot__item2 div {
+    background-color: lightblue;
+}
+
+.bg1 {
     background-color: lightblue;
 }
 
@@ -37,7 +41,7 @@ body, .top, .bot__item1, .bot__item2 div {
     border-radius: 100px;
 }
 
-.bot, .text1, .text2, .top__item2, .top__item4, .top__item5 {
+.bg2 {
     background-color: #090957;
 }
 
