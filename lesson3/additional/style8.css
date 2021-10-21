@@ -64,10 +64,12 @@
 .bottext {
     font-size: 50px;
 }
+
 .link {
     display: flex;
     height: 100px;
 }
+
 .head {
     border: 0 solid white;
     background-color: white;
@@ -78,11 +80,104 @@
     height: 35%;
     align-self: center;
 }
+
 .youtube {
     height: 100%;
 }
-#yt{
+
+#yt {
     height: 100px;
     width: 150px;
 }
 
+.destinations__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.destinations__videos {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.destinations__videos > div {
+    height: 33.33%;
+    display: flex;
+    column-gap: 10px;
+}
+
+.videolarge {
+    flex-grow: 2;
+    background-color: #2eceb6;
+}
+
+.videosmall {
+    flex-grow: 1;
+    background-color: #2eceb6;
+}
+
+.offers__header {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.offers__main > div {
+    height: 150px;
+    display: flex;
+    padding: 10px 30px;
+}
+
+.offers__main-picture {
+    width: 30%;
+    background-color: #9b9bce;
+}
+
+.offers__main-text {
+    margin-left: 20px;
+    width: 40%;
+    color: #9b9bce;
+}
+
+h2 > p {
+    color: black;
+}
+
+.footer {
+    height: 200px;
+    background-color: #93e0d3;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.footer__item {
+    flex-grow: 1;
+}
+
+.footer__item-pictures {
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.circle {
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    background: white;
+}
+
+.footer__item > p {
+    padding: 0 4px;
+    margin-bottom: 8px;
+}
