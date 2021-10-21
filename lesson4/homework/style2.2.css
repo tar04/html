@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.align_justify_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 36px;
+}
+
+.textcolor_white {
+
+}
+
+.container {
+    width: 700px;
+}
+
+.h500 {
+    height: 500px;
+}
+
+.color_lightblue {
+    background-color: #2386bd;
+}
+
+.color_darkblue {
+    background-color: darkblue;
+    flex-grow: 1;
+}
+
+.h250 {
+    height: 250px;
+}
+
+.row_gap {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.column_gap {
+    display: flex;
+    column-gap: 10px;
+}

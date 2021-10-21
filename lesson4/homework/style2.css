@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.align_justify__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.w400 {
+    width: 400px;
+}
+
+.h50 {
+    height: 50px;
+}
+
+.h250 {
+    height: 250px;
+}
+
+.head_foot {
+    background-color: lightblue;
+}
+
+.nav {
+    background-color: darkblue;
+}
+
+.right_item {
+    background-color: darkslateblue;
+    flex-grow: 1;
+}
+
+.left_item {
+    background-color: cadetblue;
+    flex-grow: 3;
+}
+
+.maintext {
+    display: flex;
+}
+
+.text__col_white {
+    color: white;
+}
