@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.align_justify_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 1000px;
+    box-sizing: border-box;
+}
+
+body, .top, .bot__item1, .bot__item2 div {
+    background-color: lightblue;
+}
+
+.top, .bot {
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 48%;
+}
+
+.top__items, .border {
+    border: 5px solid #2386bd;
+}
+
+.top__items {
+    height: 80%;
+    margin: 10px 30px;
+    padding-top: 10px;
+    border-radius: 100px;
+}
+
+.bot, .text1, .text2, .top__item2, .top__item4, .top__item5 {
+    background-color: #090957;
+}
+
+.top__text {
+    flex-grow: 3;
+    width: 35%;
+    margin: 30px 0;
+    display: flex;
+    column-gap: 5px;
+}
+
+.text1 {
+    flex-grow: 2;
+}
+
+.text2 {
+    flex-grow: 1;
+}
+
+.text1, .text2 {
+    border-radius: 20px;
+}
+
+.top__item {
+    flex-grow: 25;
+    width: 80%;
+    margin-bottom: 10px;
+    display: flex;
+    column-gap: 25px;
+}
+
+.top__item1 {
+    flex-grow: 1;
+    margin-bottom: 105px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.top__item2 {
+    flex-grow: 12;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.top__item3 {
+    flex-grow: 1;
+    display: flex;
+    column-gap: 4px;
+    margin: 0 20px;
+}
+
+.top__item4 {
+    flex-grow: 3;
+}
+
+.top__item5 {
+    flex-grow: 1;
+}
+
+.top__item4, .top__item5 {
+    border-radius: 20px;
+}
+
+.bot {
+    padding: 20px 60px;
+}
+
+.bot__items {
+    height: 80%;
+    width: 80%;
+    display: flex;
+}
+
+.bot__item {
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+
+.bot__item1 {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+.bot__item2 {
+    display: flex;
+    width: 130px;
+    height: 35px;
+    column-gap: 5px;
+    flex-wrap: wrap;
+}
+
+.bot__item2 div {
+    border-radius: 10px;
+    height: 15px;
+    margin-bottom: 5px;
+}
+
+.bot__item3 {
+    margin-left: 5px;
+    width: 70px;
+}
+
+.bot__item4 {
+    margin-right: 5px;
+    width: 45px;
+}
+
+.bot__item5 {
+    width: 45px;
+}
+
+.bot__item6 {
+    width: 30px;
+}
+
+.bot__item7 {
+    width: 45px;
+}
