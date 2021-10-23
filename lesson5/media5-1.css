@@ -1,0 +1,10 @@
+@media screen and (max-width: 992px) {
+    .videos__items{
+        flex-direction: column;
+        align-items: center;
+    }
+    .photos{
+        flex-direction: column;
+        align-items: center;
+    }
+}
