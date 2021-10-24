@@ -3,20 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .bg1 {
     background-color: #CFD7E1;
 }
+
 .bg2 {
     background-color: #102B3D;
 }
-.bg3{
- background-color: #3AC6EA;
+
+.bg3 {
+    background-color: #3AC6EA;
 }
-.text_lightblue{
+
+.text_lightblue {
     color: #3AC6EA;
 }
-.text_darkblue{
+
+.text_darkblue {
     color: #102B3D;
+}
+
+.text_white {
+    color: #CFD7E1;
 }
 
 body {
@@ -24,45 +33,121 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.header{
+
+.header {
     height: 50px;
     width: 100%;
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 100px;
 }
+
+.header__item {
+    height: 5px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+}
+.menu__icon{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 5px;
+    visibility: hidden;
+}
+
+.nav {
+    height: 100px;
+    width: 100%;
+    padding: 10px 90px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.links {
+    padding: 30px 0 0 10px;
+}
+
+.links a {
+    font-size: 20px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: white;
+}
+
+.hero {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero p {
+    margin: 0 40px 0;
+    text-align: center;
+}
+
+.hero .button {
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 30px;
+}
+
 .videos {
     margin: 30px 0;
     width: 95%;
     border: 3px solid #92B8CA;
     border-radius: 50px;
 }
+
 .videos__header h1 {
     text-align: center;
     padding: 20px;
 }
-.videos__items{
+
+.videos__items {
     display: flex;
     justify-content: space-evenly;
 }
-.videos__item{
+
+.videos__item {
     height: 250px;
     width: 200px;
     border-radius: 15px;
 }
-.videos__item p{
+
+.videos__item p {
     margin-top: 10px;
     text-align: center;
 }
-.videos__item1{
+
+.videos__item1 {
     height: 200px;
     width: 200px;
     border-radius: 15px;
 }
+
 .photos {
     width: 100%;
     display: flex;
     justify-content: space-around;
     padding: 10px;
 }
-.photos__item{
+
+.photos__item {
     margin: auto 0;
     height: 450px;
     width: 350px;
@@ -71,18 +156,115 @@ body {
     justify-content: space-evenly;
     align-items: center;
 }
-.photos__item:hover{
+
+.photos__item:hover {
     border: 3px solid #92B8CA;
     border-radius: 50px;
 }
+
 .photo__circle {
     height: 200px;
     width: 200px;
     border-radius: 50%;
 }
-.photo__circle +{
+
+.photo__circle + {
     margin-bottom: 20px;
 }
-.photos__item p{
+
+.photos__item p {
     text-align: center;
+}
+
+.propositions {
+    width: 100%;
+    padding: 70px;
+}
+
+.propositions h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.propositions__item {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item1 {
+    height: 600px;
+    width: 450px;
+    margin-bottom: 40px;
+    border: 3px solid #3AC6EA;
+    border-radius: 20px;
+}
+
+.item2 {
+    height: 90%;
+    border-bottom: 3px solid #3AC6EA;
+    padding: 10px;
+}
+
+.item3 {
+    height: 250px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.bottext {
+    display: flex;
+    width: 100%;
+    padding: 70px;
+
+}
+
+.bottext__item {
+    height: 500px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.bottext__item h2 {
+    margin-bottom: 20px;
+}
+
+.text__button {
+    height: 13%;
+    width: 30%;
+    border: none;
+    border-radius: 50px;
+}
+
+.footer {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topfooter {
+    width: 160px;
+    height: 40px;
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 40px;
+}
+
+.footertop__item {
+    flex-grow: 1;
+    border-radius: 10px;
+}
+
+hr {
+    height: 5px;
+    width: 500px;
+    border: 0;
+    border-radius: 15px;
 }

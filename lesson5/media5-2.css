@@ -7,4 +7,22 @@
         flex-direction: column;
         align-items: center;
     }
+    .header{
+        padding: 0;
+        justify-content: space-evenly;
+    }
+    .links{
+        visibility: hidden;
+    }
+    .bottext{
+        display: block;
+    }
+    .menu__icon{
+        visibility: visible;
+    }
+    .nav{
+        justify-content: center;
+        margin: 0 auto 0 15%;
+        flex-basis: 60px;
+    }
 }
