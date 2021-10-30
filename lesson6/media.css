@@ -1,0 +1,103 @@
+@media screen and (max-width: 1200px) {
+    .first-screen-left h1 {
+        text-align: center;
+    }
+
+    .first-screen-left h1 {
+        font-size: 34px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .first-screen-left h1 {
+        border-bottom: 7px solid #EDEFF3;
+        padding-bottom: 30px;
+    }
+
+    .first-screen-text::before, .first-screen-text::after {
+        display: none;
+    }
+
+    .first-screen-text {
+        margin-top: 0;
+    }
+
+    .header {
+        backdrop-filter: none;
+    }
+
+    .first-screen-left {
+        margin-top: 56px;
+    }
+
+    .stardarts__text {
+        background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+        padding: 9% 11% 7% 8%;
+    }
+
+    .specialization {
+        flex-direction: column-reverse;
+    }
+
+    .specialization img {
+        content: url("image/IconHotToCold 2 (1).png");
+    }
+
+    .specialization__text h2 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .info__center {
+        padding: 46px 0 64px;
+    }
+
+    ul {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .img__dots {
+        margin: 0 auto 0;
+    }
+    .propositions__items{
+        margin-top:0;
+    }
+    .footer__top{
+        flex-direction: column-reverse;
+    }
+    .footer__top-left{
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .footer__top-left button {
+        width: 359px;
+    }
+    .footer__top-right, .footer__top-left h2{
+        margin-top: 40px;
+    }
+    .footer__top-left h2{
+        font-size: 26px;
+        line-height: 43px;
+        text-align: center;
+    }
+    .footer__bot{
+        flex-direction: column;
+        padding-left: 32px;
+    }
+    .footer__bot-item{
+        margin-right: 0;
+    }
+    .footer__bot-item div u{
+        margin-right: 0;
+    }
+    .footer__bot-item div{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 1650px){
+    .img__nav-wrap {
+        display: none;
+    }
+}
